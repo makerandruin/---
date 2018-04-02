@@ -1,0 +1,8 @@
+/* pages/pages.wxss */
+.page-section{
+   margin-bottom: 20rpx;
+}
+.flex-wrp{display: flex;}
+.bc_green{background: green;width: 200rpx;height: 200rpx;}
+.bc_red{background: red;width: 200rpx;height: 200rpx;}
+.bc_blue{background: blue;width: 200rpx;height: 200rpx;}
