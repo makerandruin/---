@@ -1,0 +1,4 @@
+/* app.wxss */
+.window{
+  color:#4995fa,
+}

@@ -1,0 +1,25 @@
+/* pages/index/index.wxss */
+.window{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#4995fa;
+}
+.window-red{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#D23933;
+}
+.window-green{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:green;
+}
+.window-purple{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:purple;
+}
