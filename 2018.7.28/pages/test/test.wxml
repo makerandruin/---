@@ -1,0 +1,7 @@
+<view wx:if="{{falg}}">falg==true</view>
+<view wx:elif="{{num1>3}}">num1 bigger 3</view>
+<view wx:else="{{num2<9}}">num2 lesser 9</view>
+<view>{{content}}</view>
+<view>
+  <button bindtap='goto'>goto index</button>
+</view>

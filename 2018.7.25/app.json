@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tabBer/page1/page1",
+    "pages/tabBer/page2/page2",
+    "pages/tabBer/page3/page3",
+    "pages/tabBer/page4/page4"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2018.7.25",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#88aa88",
+    "selectedColor": "#1199e4",
+    "borderStyle": "black",
+    "backgroundColor": "#eeffee",
+    "position":"top",
+    "list": [{
+      "pagePath":"pages/index/index",
+      "text":"index"
+    },{
+      "pagePath": "pages/tabBer/page1/page1",
+      "text": "page1"
+    },{
+      "pagePath":"pages/tabBer/page2/page2",
+      "text":"page2"
+    },{
+      "pagePath":"pages/tabBer/page3/page3",
+      "text":"page3"
+    },{
+      "pagePath":"pages/tabBer/page4/page4",
+      "text":"page4"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

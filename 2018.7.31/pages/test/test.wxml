@@ -1,0 +1,18 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<view class="view_op">
+<view wx:for="{{test}}">
+<!--index代指数组编号，item.XXX代指对应的数据-->
+  <view>{{index}}-----{{item.userName}}</view>
+  <view>{{index}}-----{{item.age}}</view>
+  <view>{{index}}-----{{item.sex}}</view>
+</view>
+
+<view>
+<view wx:for="{{test}}" wx:for-index="i" wx:for-item="op">
+  <view>{{i}}-----{{op.userName}}</view>
+  <view>{{i}}-----{{op.age}}</view>
+  <view>{{i}}-----{{op.sex}}</view>
+</view>
+</view>
+</view>

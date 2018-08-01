@@ -1,0 +1,27 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+
+<view>
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-index="i" wx:for-item="j">
+    <view wx:if="{{i<j}}">
+      <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-index="j" wx:for-item="k">
+        <view>{{i+1}}X{{k}}={{(i+1)*k}}  </view> 
+      </view>
+    </view>  
+    <view>" "</view>
+  </view>
+  
+  <view>"""""""""""""""""""</view>
+
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+      <view wx:if="{{i<j}}">
+        {{i}}X{{j}}={{i*j}}
+      </view>
+    </view>
+    <view>" "</view>
+  </view>
+
+
+
+</view>

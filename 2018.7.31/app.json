@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/test/test"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2018.7.31",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "welcome"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "test"
+      }
+    ]
+  },
+  "debug":true
+}

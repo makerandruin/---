@@ -1,0 +1,6 @@
+/* pages/test/test.wxss */
+.view_op{
+  display: flex;
+  flex-direction:column;
+  align-items: center; 
+}
