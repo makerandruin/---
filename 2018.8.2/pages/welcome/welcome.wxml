@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml-->
+<view  class="view_welcome">
+  <view>
+    <text>about even</text>
+  </view>
+  <view>
+    <button bindtap='goto_test'>goto test</button>
+  </view>
+</view>

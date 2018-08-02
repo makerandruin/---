@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/test/test",
+    "pages/test_index/index",
+    "pages/test_data/data"
+  ],"window": {
+    "navigationBarBackgroundColor": "#ffdddd",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2018.8.1",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/test/test",
+        "text": "test"
+      },
+      {
+        "pagePath": "pages/test_index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/test_data/data",
+        "text": "data"
+      }
+    ]
+  },
+  "debug": true
+}

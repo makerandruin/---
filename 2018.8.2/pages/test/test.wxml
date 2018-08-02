@@ -1,0 +1,16 @@
+<view class='view_button'>
+  <text>{{texts}}</text>
+  <button class='button' bindtouchstart='start'>{{text_bind}}{{button_name_1}}</button>
+  <button class='button' bindtouchmove='move'>{{text_bind}}{{button_name_2}}</button>
+  <button class='button' bindtouchend='end'>{{text_bind}}{{button_name_3}}</button>
+  <button class='button' bindtap='tap'>{{text_bind}}{{button_name_4}}</button>
+  <button class='button' bindlongtap='longtap'>{{text_bind}}{{button_name_5}}</button>
+
+  <button class='button' catchtouchstart='start'>{{text_catch}}{{button_name_1}}</button>
+  <button class='button' catchtouchmove='move'>{{text_catch}}{{button_name_2}}</button>
+  <button class='button' catchtouchend='end'>{{text_catch}}{{button_name_3}}</button>
+  <button class='button' catchtap='tap'>{{text_catch}}{{button_name_4}}</button>
+  <button class='button' catchlongtap='longtap'>{{text_catch}}{{button_name_5}}</button>
+
+  <button class='button' type='warn' catchtap='restoration'>{{text_bind}} and {{text_catch}} {{button_name_6}}</button>
+</view>

@@ -1,0 +1,14 @@
+<text>
+  data: {
+    texts: "点击按钮，触发事件",
+    text_bind:"bind",
+    text_catch:"catch",
+    button_name_1: "开始点击按钮",
+    button_name_2: "点击按钮并移动",
+    button_name_3: "结束点击按钮",
+    button_name_4: "快速点击按钮",
+    button_name_5: "点击长按按钮",
+
+    button_name_6: "复位",
+  },
+</text>

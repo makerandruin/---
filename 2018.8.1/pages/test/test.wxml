@@ -1,0 +1,18 @@
+<template name="root">
+  <view>
+    {{item.userName}}---{{item.sex}}----{{item.age}}
+  </view>
+</template>
+<template name="pagess">
+  <view>
+    {{item.page_js}}---{{item.page_json}}---{{item.page_wxml}}---{{item.page_wxss}}
+  </view>
+</template>
+
+<view wx:for="{{user}}">
+  <template is="root" data="{{item}}"></template>
+</view>
+
+<view wx:for="{{page}}">
+  <template is="pagess" data="{{item}}"></template>
+</view>

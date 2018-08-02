@@ -1,0 +1,7 @@
+<text>
+This is index</text>
+<template name="test_index">
+  <import src="../test_data/data.wxml"/>
+  <text>
+  This is a template from test_index</text>
+</template>

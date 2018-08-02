@@ -1,0 +1,7 @@
+<text>
+This is a string from test_data
+</text>
+<template name="test_data">
+ <text>
+ This is a template from test_data</text>
+</template>

@@ -1,0 +1,11 @@
+/* pages/test/test.wxss */
+.view_button{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.button{
+  height: 50px;
+  width: 300px;
+
+}

@@ -1,0 +1,10 @@
+<!--import: (import src="xxx"/)  -->
+<!--   ../test_index/index.wxml ==  /pages/test_index/index  -->
+<import src="/pages/test_index/index.wxml"/>
+<import src="/pages/test_data/data.wxml"/>
+<include src="../test_data/data.wxml"/>
+<template is="test_index">
+</template>
+
+<template is="test_data">
+</template>

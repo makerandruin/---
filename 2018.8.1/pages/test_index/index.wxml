@@ -1,0 +1,34 @@
+<!--pages/test_index/index.wxml-->
+<text>data: {
+    user:[{
+      userName:"Jack",
+      sex:"男",
+      age:20
+    },{
+        userName: "Bob",
+        sex: "男",
+        age: 20
+    },{
+        userName: "solider",
+        sex: "男",
+        age: 20
+    }],
+    page:[{
+      page_js:"No.1_js",
+      page_json:"No.1_json",
+      page_wxml:"No.1_wxml",
+      page_wxss:"No.1_wxss"
+    },{
+        page_js: "No.2_js",
+        page_json: "No.2_json",
+        page_wxml: "No.2_wxml",
+        page_wxss: "No.2_wxss"
+    },{
+
+        page_js: "No.3_js",
+        page_json: "No.3_json",
+        page_wxml: "No.3_wxml",
+        page_wxss: "No.3_wxss"
+    }]
+  },
+</text>

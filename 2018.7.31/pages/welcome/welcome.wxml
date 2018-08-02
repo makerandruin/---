@@ -1,2 +1,12 @@
 <!--pages/welcome/welcome.wxml-->
 <text>pages/welcome/welcome.wxml</text>
+<view>
+  <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+    <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+      <view wx:if="{{i<=j}}">
+        {{i}}X{{j}}={{i*j}}
+      </view>
+      <!--look Wxml -->
+    </block>
+  </block>
+</view>

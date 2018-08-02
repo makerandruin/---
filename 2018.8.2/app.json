@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/test/test",
+    "pages/test_index/index",
+    "pages/test_data/data"
+  ],"window": {
+    "navigationBarBackgroundColor": "#ddddff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2018.8.2",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },"tabBar": {
+    "list": [{
+      "pagePath": "pages/test/test",
+      "text": "test",
+      "iconPath":"image/test.png",
+      "selectedIconPath":"image/test1.png"
+    },{
+      "pagePath":"pages/test_index/index",
+      "text":"index",
+      "iconPath": "image/test.png",
+      "selectedIconPath": "image/test1.png"
+    },{
+      "pagePath":"pages/test_data/data",
+      "text":"data",
+      "iconPath": "image/test.png",
+      "selectedIconPath": "image/test1.png"
+    }]
+  },
+  "debug": true
+}

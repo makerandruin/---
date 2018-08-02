@@ -1,0 +1,20 @@
+<text>user:{userName,sex,age}
+user_1:{
+       jack,
+       男,
+       20
+       }
+user_2:{
+       bob,
+       男，
+       20
+       }
+user_3:{
+       solider,
+       男,
+       20
+       }
+--------------
+page:{page_js,page_json,page_wxml,page_wxss}
+......
+</text>

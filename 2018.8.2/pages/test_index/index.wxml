@@ -1,0 +1,48 @@
+<text>
+  //事件1:开始点击按钮
+  start:function(){
+    console.log("start"),
+    this.setData({
+       button_name_1:"当前状态：按下按钮"
+    })
+  },
+  //事件2:点击按钮并移动
+  move:function(){
+    console.log("move"),
+    this.setData({
+      button_name_2:"当前状态：按下按钮移动"
+    })
+  },
+  //事件3:结束点击按钮
+  end:function(){
+    console.log("end"),
+    this.setData({
+      button_name_3:"当前状态：结束按键"
+    })
+  },
+  //事件4:快速点击按钮
+  tap:function(){
+    console.log("tap"),
+    this.setData({
+      button_name_4:"当前状态：点击后离开"
+    })
+  },
+  //事件5:点击长按按钮
+    longtap:function(){
+    console.log("longtap"),
+    this.setData({
+      button_name_5:"当前状态：长按按钮"
+    })
+  },
+  //事件6：复位
+  restoration:function(){
+    console.log("restoration"),
+    this.setData({
+      button_name_1: "开始点击按钮",
+      button_name_2: "点击按钮并移动",
+      button_name_3: "结束点击按钮",
+      button_name_4: "快速点击按钮",
+      button_name_5: "点击长按按钮",
+    })
+  },
+</text>
